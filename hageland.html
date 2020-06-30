@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css"/>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171281789-1"></script>
 <script>
@@ -58,8 +58,37 @@
     </nav>
 
     <!-- Body -->
+    <div class="container">
+      <div class="text-center">
+      <br>
+      <h5>Kapellentocht // 100 KM // 700 HM</h5>
+      <br><br>
+    </div>
+    <p>A ride from x to x. On the route following highlights.</p>
+      <div class="row mb-5">
+        <div class="col-md-8">
+          <a href="#">
+            <img class="img-responsive" src="img/view1.jpg">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-responsive" src="img/view2.jpg">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="margin-bottom: 50px">
+      <div class="row">
+        <div class="col-12 px-0">
+          <img class="img-fluid" src="img/view3.jpg">
+        </div>
+      </div>
+    </div>
+
     <div class="container d-flex justify-content-center">
-      <div id="mapid" style="width: 70%; height: 400px; position: relative;">
+      <div id="mapid" style="width: 100%; height: 300px; position: relative">
       <script>
         var mymap = L.map('mapid');
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -77,6 +106,10 @@
           }).addTo(mymap);
       </script>
       </div>
+    </div>
+
+    <div class="container">
+      Download GPX
     </div>
 
     <!-- Optional JavaScript -->
